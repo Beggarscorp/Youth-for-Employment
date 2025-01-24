@@ -1,0 +1,28 @@
+.menuIconHide
+{
+    display: none;
+}
+.menu-item
+{
+    opacity: 0;
+    transition: 1s ease;
+    box-shadow: -1px 1px 6px darkslategray;
+}
+.showMenuItem
+{
+    opacity: 1;
+}
+.menu-item ul li
+{
+    opacity: 0;
+    transform: translateX(-150px);
+    transition: 1s ease;
+    border-bottom: 1px solid #ff924e;
+    padding: 5px 10px;
+    font-size: small;
+}
+.showMenuliItem
+{
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}

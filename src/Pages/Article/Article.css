@@ -1,0 +1,34 @@
+.imgdiv
+{
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.imgdiv
+{
+    border-radius: 10px 10px 0 0;
+}
+.article-card
+{
+    background-color: #ff945ec2;
+    border-radius: 10px;
+    box-shadow: 0 0 15px gray;
+}
+.article-card .content
+{
+    padding: 10px;
+}
+.main-article-card h3::first-letter
+{
+    font-size: 45px; 
+}
+.main-article-card .article-image
+{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,11 @@
+.img
+{
+   border: 5px solid #ff924e;
+   margin: 10px;
+}
+.img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
